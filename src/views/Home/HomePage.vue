@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <AppBar />
-    <HeaderSection />
-  </div>
+  <AppBar />
+  <HeaderSection />
 </template>
 
 <script>

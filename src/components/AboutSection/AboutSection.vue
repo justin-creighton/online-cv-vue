@@ -1,13 +1,14 @@
 <template>
-      <div class="nav"></div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: "AppBar",
-
+  name: "HeaderSection",
   data: () => ({
     //
   }),
 };
 </script>
+
+<style scoped></style>
