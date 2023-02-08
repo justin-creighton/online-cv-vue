@@ -1,19 +1,18 @@
 <template>
   <v-app>
     <v-main>
-      <HomePage />
+      <Sidebar></Sidebar>>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HomePage from "./views/Home/HomePage.vue";
-
+import Sidebar from './components/Sidebar/Sidebar.vue';
 export default {
   name: "App",
 
   components: {
-    HomePage,
+    Sidebar: Sidebar,
   },
 
   data: () => ({
